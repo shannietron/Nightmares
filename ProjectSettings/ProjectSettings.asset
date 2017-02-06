@@ -562,7 +562,7 @@ PlayerSettings:
     Game_Performance: 0
     Hub: 0
     Purchasing: 0
-    UNet: 0
+    UNet: 1
     Unity_Ads: 0
   cloudProjectId: 57bad85a-202c-4e46-ab15-642b1e544e59
   projectName: Nightmares (2)
