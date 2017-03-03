@@ -1010,6 +1010,31 @@ Prefab:
       propertyPath: m_PlayOnAwake
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 82855252289194890, guid: 2541b4a655ab045da86d8e74afa80f25,
+        type: 2}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 72f1058c8064e4fe89b918a5e9a61455, type: 3}
+    - target: {fileID: 82855252289194890, guid: 2541b4a655ab045da86d8e74afa80f25,
+        type: 2}
+      propertyPath: m_Volume
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 120311407296036934, guid: 2541b4a655ab045da86d8e74afa80f25,
+        type: 2}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].value
+      value: 0.6258503
+      objectReference: {fileID: 0}
+    - target: {fileID: 120311407296036934, guid: 2541b4a655ab045da86d8e74afa80f25,
+        type: 2}
+      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].time
+      value: 0.0067720087
+      objectReference: {fileID: 0}
+    - target: {fileID: 120311407296036934, guid: 2541b4a655ab045da86d8e74afa80f25,
+        type: 2}
+      propertyPath: m_Parameters.textureMode
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2541b4a655ab045da86d8e74afa80f25, type: 2}
   m_IsPrefabParent: 0
