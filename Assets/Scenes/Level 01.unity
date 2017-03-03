@@ -990,14 +990,53 @@ Prefab:
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 114678968233716854, guid: 2541b4a655ab045da86d8e74afa80f25,
+        type: 2}
+      propertyPath: healthSlider
+      value: 
+      objectReference: {fileID: 1236822568}
+    - target: {fileID: 114678968233716854, guid: 2541b4a655ab045da86d8e74afa80f25,
+        type: 2}
+      propertyPath: damageImage
+      value: 
+      objectReference: {fileID: 1679538714}
+    - target: {fileID: 82855252289194890, guid: 2541b4a655ab045da86d8e74afa80f25,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 82855252289194890, guid: 2541b4a655ab045da86d8e74afa80f25,
+        type: 2}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2541b4a655ab045da86d8e74afa80f25, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &805206820 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1819795962400044, guid: 2541b4a655ab045da86d8e74afa80f25,
+    type: 2}
+  m_PrefabInternal: {fileID: 805206819}
 --- !u!4 &805206826 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4488199173495696, guid: 2541b4a655ab045da86d8e74afa80f25,
     type: 2}
   m_PrefabInternal: {fileID: 805206819}
+--- !u!114 &805206828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 805206820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 27c63be2a8918c741863160b9d9da122, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damagePerShot: 20
+  timeBetweenBullets: 0.15
+  range: 100
 --- !u!1 &826396089
 GameObject:
   m_ObjectHideFlags: 0
@@ -2744,6 +2783,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 1545163525}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b9d14572410594cb85d40eedfb150c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingHealth: 100
+  currentHealth: 0
+  sinkSpeed: 2.5
+  scoreValue: 10
+  deathClip: {fileID: 0}
+--- !u!114 &1545163535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1545163525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e15099f5ee559584089d5851df572def, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
@@ -3311,7 +3366,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 4fff99673a41e24439d527ad0bd6b569, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 1
@@ -3381,29 +3436,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!1 &1974757965 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1284644981113054, guid: 2541b4a655ab045da86d8e74afa80f25,
-    type: 2}
-  m_PrefabInternal: {fileID: 805206819}
---- !u!114 &1974757966
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1974757965}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 544f2064df03e95419b4a5147c506b08, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startingHealth: 100
-  currentHealth: 0
-  healthSlider: {fileID: 1236822568}
-  damageImage: {fileID: 1679538714}
-  deathClip: {fileID: 8300000, guid: d36a393bca4582043982db9089e1694f, type: 3}
-  flashSpeed: 5
-  flashColour: {r: 1, g: 0, b: 0, a: 0.1}
 --- !u!1 &2003855620
 GameObject:
   m_ObjectHideFlags: 0

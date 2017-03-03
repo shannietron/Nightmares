@@ -71,10 +71,10 @@ public class EnemyHealth : MonoBehaviour
 
     public void StartSinking ()
     {
-        GetComponent <UnityEngine.AI.NavMeshAgent> ().enabled = false;
+        GetComponent <UnityEngine.AI.NavMeshAgent> ().enabled = false; // only set this particular component false.
         GetComponent <Rigidbody> ().isKinematic = true;
         isSinking = true;
         //ScoreManager.score += scoreValue;
-        Destroy (gameObject, 2f);
+        Destroy (gameObject, 2f); //destroy in 2 seconds
     }
 }
