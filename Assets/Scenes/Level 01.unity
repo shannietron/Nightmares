@@ -1035,6 +1035,11 @@ Prefab:
       propertyPath: m_Parameters.textureMode
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 108037498676932682, guid: 2541b4a655ab045da86d8e74afa80f25,
+        type: 2}
+      propertyPath: m_Intensity
+      value: 2.53
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2541b4a655ab045da86d8e74afa80f25, type: 2}
   m_IsPrefabParent: 0
