@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour{
 	Rigidbody playerRigidbody;
 	int floorMask;
 	float camRayLength = 100f;
+	float JumpSpeed = 500.0f;
 
 	void Awake (){
 		floorMask = LayerMask.GetMask("Floor");
@@ -19,13 +20,22 @@ public class PlayerMovement : MonoBehaviour{
 		float h = Input.GetAxisRaw ("Horizontal");
 		float v = Input.GetAxisRaw ("Vertical");
 
+		if (Input.GetKeyDown(KeyCode.Space)) {
+			Jump ();
+		}
+
+
 		Move (h, v);
 		Turning ();
 		Animating (h, v);
 	}
+	void Jump(){
+		playerRigidbody.AddForce(Vector3.up * JumpSpeed);
+		print("space key was pressed");
+	}
 
 	void Move (float h, float v) {
-		movement.Set(h, 0f,v);
+		movement.Set(h, 0 ,v);
 		movement = movement.normalized * speed * Time.deltaTime;
 		playerRigidbody.MovePosition (transform.position + movement);
 	}

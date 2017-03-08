@@ -1040,6 +1040,41 @@ Prefab:
       propertyPath: m_Intensity
       value: 2.53
       objectReference: {fileID: 0}
+    - target: {fileID: 54004667101466660, guid: 2541b4a655ab045da86d8e74afa80f25,
+        type: 2}
+      propertyPath: m_Constraints
+      value: 112
+      objectReference: {fileID: 0}
+    - target: {fileID: 114771349590916890, guid: 2541b4a655ab045da86d8e74afa80f25,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 54004667101466660, guid: 2541b4a655ab045da86d8e74afa80f25,
+        type: 2}
+      propertyPath: m_UseGravity
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 54004667101466660, guid: 2541b4a655ab045da86d8e74afa80f25,
+        type: 2}
+      propertyPath: m_Drag
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 54004667101466660, guid: 2541b4a655ab045da86d8e74afa80f25,
+        type: 2}
+      propertyPath: m_AngularDrag
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 54004667101466660, guid: 2541b4a655ab045da86d8e74afa80f25,
+        type: 2}
+      propertyPath: m_IsKinematic
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 54004667101466660, guid: 2541b4a655ab045da86d8e74afa80f25,
+        type: 2}
+      propertyPath: m_Mass
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2541b4a655ab045da86d8e74afa80f25, type: 2}
   m_IsPrefabParent: 0
